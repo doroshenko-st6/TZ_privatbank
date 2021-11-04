@@ -396,11 +396,11 @@ html {
 
 .info-head__btn_toCards {
     margin-left: 1.5px;
-    color: #1D1D1D;
+    color: #1D1D1D !important;
 }
 
 .info-head__btn:hover {
-    color: #fff;
+    color: #fff !important;
     background-color: #15B22F;
 }
 
@@ -411,6 +411,7 @@ html {
     gap: 20px;
     row-gap: 40px;
     column-gap: 164px;
+    color: #8F999F;
 }
 
 .info-subtitle__text:nth-child(1) {
@@ -418,8 +419,7 @@ html {
 }
 
 .notice_card {
-    padding-right: 30px;
-    padding-left: 3px;
+    padding: 5px 30px 10px 5px;
     height: 465px;
     margin-top: 12px;
     color: #1D1D1D;

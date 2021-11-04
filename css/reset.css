@@ -20,7 +20,6 @@ table, thead, tbody, tfoot, tr, th, td {
 input, option, textarea {
   border-radius: 0 !important;
   box-shadow: none !important;
-    
   font-size: inherit;
   font-family: inherit;
 }
@@ -31,11 +30,11 @@ ul, ol {
 
 a, button, select {
   text-decoration: none !important;
-  cursor: pointer;
+  cursor: pointer !important;
 }
 
 a {
-  color: inherit;
+  color: inherit !important;
 }
 
 input:focus, label:focus, textarea:focus, select:focus, option:focus, button:focus, a:focus {
