@@ -122,9 +122,10 @@
 }
 
 .menu-button__btn {
-    cursor: pointer;
+    width: 186px;
+    /* cursor: pointer; */
     background-color: #4D4D4D;
-    padding: 16px 26px 18px 14px;
+    padding: 16px 26px 14px 14px;
     display: flex;
     align-items: center;
     border: none;
@@ -137,8 +138,8 @@
 }
 
 .menu-button__btn_small {
-    padding: 18px 24px;
-    display: initial;
+    width: 60px;
+    padding: 16px 24px;
 }
 
 .menu-button__text {
@@ -146,23 +147,16 @@
     font-size: 16px;
     line-height: 22px;
     color: #fff;
+}
+
+.menu-button__text_QR {
     margin-left: 12px;
 }
 
-.go-back {
-    margin-top: 58px;
-    background-color: #1D1D1D;
-    padding: 16px 40px;
+.menu-block {
+    padding-top: 41px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: space-between;
 }
-
-.menu-button__btn-low {
-    justify-content: start;
-    margin-left: 0;
-    width: 304px;
-}
-
-.menu-button__text-low {
-    margin-left: 76px;
-    line-height: 30px;
-}
-
